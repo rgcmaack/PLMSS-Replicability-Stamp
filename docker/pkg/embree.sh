@@ -8,5 +8,10 @@ fetch-src https://github.com/embree/embree/archive/v${EMBREE_VERSION}.tar.gz
 
 cmake-default \
     -DEMBREE_TASKING_SYSTEM=TBB \
-    -DEMBREE_TUTORIALS=OFF
+    -DEMBREE_TUTORIALS=OFF \
+    -DEMBREE_MAX_ISA=NONE \
+    -DEMBREE_ISA_SSE2=ON \
+    -DEMBREE_ISA_AVX=ON \
+    -DEMBREE_ISA_SSE42=OFF
+    
 

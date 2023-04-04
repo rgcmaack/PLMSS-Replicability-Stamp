@@ -1,5 +1,6 @@
 #!/bin/bash 
 docker buildx build \
+    --no-cache \
     --target ttk \
     -f Dockerfile \
     --load \
