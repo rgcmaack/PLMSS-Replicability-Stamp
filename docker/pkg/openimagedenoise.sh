@@ -10,6 +10,6 @@ if [ $(arch) == "x86_64" ]; then
 
     cmake-default \
         -DOIDN_APPS=OFF \
-        -OIDN_FILTER_RT=OFF
+        -DOIDN_FILTER_RT=OFF
 
 fi
